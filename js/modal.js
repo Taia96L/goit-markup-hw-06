@@ -5,7 +5,7 @@
       // Додати атрибут data-modal-close на кнопку закриття
       closeModalBtn: document.querySelector("[data-modal-close]"),
       // Додати атрибут data-modal на бекдроп модалки
-      modal: document.querySelector("[data-modal]"),
+      modal: document.querySelector("[data-modal-backdrop]"),
     };
   
     refs.openModalBtn.addEventListener("click", toggleModal);
